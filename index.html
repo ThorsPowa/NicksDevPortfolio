@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2752c367e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="#home"><img src="images/NicksDevPortfolio.png" alt="This is Nicks Logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Hi, I am <strong>Nick Wagner</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">front-end-dev</p>
+        <img src="images/Profile_Pic01.png" alt="a picture of Nick" class="intro__img">
+    </section>
+
+    <!--My Services-->
+    <section class="my-services" id="services">
+        <h2 class="sections__title section__title--services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Web Design and Development</h3>
+                <p>Web development is my bread and butter!  Spending the majority of my time as a software developer working on 
+                    the front-end I have acquired skills in not only creating the backbones of a website with HTML, to stylishly 
+                    giving a website the its flare with CSS, and then adding the final touches of functionality by implementing a 
+                    a bit of JavaScript.
+                </p>
+            </div> 
+            
+            <div class="service">
+                <h3>Game Design and Development</h3>
+                <p>Gaming is one of my greatest passions and is how I began this journey as a software developer in the 
+                    first place.  I have spent majority of my time working on small games in unity using the C# scripting
+                    language.  These games include a flappy bird clone, a starship rail shooter, and a third person character
+                    controller.  I have also spent some time in Unreal Engine working with blueprints and a touch of C++.
+                </p>
+            </div> 
+
+            <div class="service">
+                <h3>3D Animation</h3>
+                <p>I learned 3d Animation from the prestigious animation program at Animation Mentor.  Attending thier classes
+                    has helped me in creating simple gameplay animations and loops for small games.  I have skills with blender 
+                    and Autodesk Maya.
+                </p>
+            </div> 
+        </div>
+
+        <a href="#work" class="btn">My Work</a>
+    </section>
+
+    <!--About Me-->
+    <section class="about-me" id="about">
+        <h2 class="sections__title section__title--about">Who I am</h2>
+        <p class="sections__subtitle section__subtitle--about">Software Developer based out of Michigan</p>
+
+        <div class="abot--me__body">
+            <p>
+                My name is Nicholas Wagner and I am from Michigan. I enjoy lifting weights and gaming in my free time 
+                (although I spend more of it in the kitchen cooking). I have found a love for software Development in
+                the recent years and cannot wait to break into the industry. 
+            </p>
+            <p>
+                Currently I am on course to graduate with a degree in Computer Information Systems, 
+                Specializing in software engineering.  I have also completed a list of projects on my 
+                own as you can see below!
+            </p>
+        </div>
+        <img src="images/Profile_Pic02.jpg" alt="Nick standing in Chicago" class="about-me__img">
+    </section>
+
+    <!--My Work-->
+    <section class="my-work" id="work">
+        <h2 class="section__title sections__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">This is some of my recent work!</p>
+
+        <div class="portfolio">
+            <!--Portfolio item 01-->
+            <a href="portfolio_item_01.html" class="portfolio__item">
+                <img src="images/Portfolio_project_01.jpg" alt="portfolio porject here" class="portfolio__img">
+            </a>
+            <a href="portfolio_item_02.html" class="portfolio__item">
+                <img src="images/Portfolio_project_02.jpg" alt="portfolio porject here" class="portfolio__img">
+            </a>
+<!--
+            <a href="portfolio_item_03.html" class="portfolio__item">
+                <img src="/images/Portfolio_project_01.jpg" alt="portfolio porject here" class="portfolio__img">
+            </a>
+
+            <a href="portfolio_item_04.html" class="portfolio__item">
+                <img src="/images/Portfolio_project_01.jpg" alt="portfolio porject here" class="portfolio__img">
+            </a>
+        </div>
+-->
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nwag7879@gmail.com" class="footer-link">nwag7879@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com/ThorsPowa">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com/NickWag00537683">
+                    <i class="fa-brands fa-square-twitter"></i>                
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://www.linkedin.com/in/nick-wagner-8bb5261b3/">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>

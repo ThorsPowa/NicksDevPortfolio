@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicholas Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/2752c367e2.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+         <a href="index.html#home"><img src="images/NicksDevPortfolio.png" alt="This is Nicks Logo"></a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="index.html" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="index.html#services" class="nav__link">My services</a></li>
+                <li class="nav__item"><a href="index.html#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="index.html#work" class="nav__link">My Work</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+     <!--Introduction-->
+     <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">Company<strong>Landing Page</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Otaku Muscle</p>
+        <img src="images/Portfolio_project_01.jpg" alt="" class="portfolio_intro__img">
+    </section>
+
+    <div class="portfolio-item-individual">
+        <p> I created this website using HTML, CSS, and bootstrap.  It is meant to represent a typical 
+            landing page companies would use in order to sell and or market their product.</p>
+        <img src="images/OtakuMusclescreenshot.jpg" alt="">
+        <p>I began this site with a basic logo and some download links for the Otaku Muscle app 
+            ensuring to get links to both Androis and IOS.</p>
+            <img src="images/OtakuMusclescreenshot_02.jpg" alt="">
+        <p>I then left testimonials from some of Otaku muscles current members.  This is a revolving
+            wheel that you can cycle through using the arrows on the side. I did this with Bootstrap.
+        </p>
+            <img src="images/OtakuMusclescreenshot_03.jpg" alt="">
+        <p>
+            Finally using HTML CSS and bootstrap I was able to setup a grid that held all of the pricing 
+            plans for Otaku Muscsle.
+        </p>
+        <div class="portfolio__item--btn">
+            <a href="https://thorspowa.github.io/OtakuMuscleCVSite/" class="btn_project-page">Visit Otaku Muscle</a>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer class="footer">
+        <a href="mailto:nwag7879@gmail.com" class="footer-link">nwag7879@gmail.com</a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="">
+                    <i class="fa-brands fa-square-twitter"></i>                
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="">
+                    <i class="fa-brands fa-linkedin"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
