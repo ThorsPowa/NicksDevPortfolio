@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nicholas Portfolio Website</title>
+    <link rel="stylesheet" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;700;900&family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
     <script src="https://kit.fontawesome.com/2752c367e2.js" crossorigin="anonymous"></script>
@@ -12,7 +13,7 @@
 <body>
     <header>
         <div class="logo">
-            <img src="images/Logo_img.jpg" alt="This is Nicks Logo">
+         <a href="index.html#home"><img src="images/NicksDevPortfolio.png" alt="This is Nicks Logo"></a>
         </div>
         <button class="nav-toggle" aria-label="toggle navigation">
             <span class="hamburger"></span>
@@ -29,22 +30,29 @@
     
      <!--Introduction-->
      <section class="intro" id="home">
-        <h1 class="section__title section__title--intro">This is the title<strong>Of my project</strong></h1>
-        <p class="section__subtitle section__subtitle--intro">A short sutitle</p>
-        <img src="images/Fake Portfolio img1.jpg" alt="" class="portfolio_intro__img">
+        <h1 class="section__title section__title--intro">Unity 3D<strong>First Person Shooter</strong></h1>
+        <p class="section__subtitle section__subtitle--intro">Metroid Survive</p>
+        <img src="images/Portfolio_project_04.jpg.png" alt="" class="portfolio_intro__img">
     </section>
 
     <div class="portfolio-item-individual">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
-            et dolore magna aliqua. Tellus integer feugiat scelerisque varius. Feugiat nibh sed pulvinar proin 
-            gravida. Iaculis at erat pellentesque adipiscing. Leo duis ut diam quam nulla porttitor massa.</p>
-        <img src="images/OtakuMusclescreenshot.jpg" alt="">
-        <p>Pulvinar pellentesque habitant morbi tristique senectus et netus. Egestas quis ipsum suspendisse 
-            ultrices gravida dictum fusce. Scelerisque purus semper eget duis. Leo vel orci porta non pulvinar 
-            neque. Felis bibendum ut tristique et egestas. Sit amet mattis vulputate enim. Consectetur adipiscing 
-            elit ut aliquam. Vel elit scelerisque mauris pellentesque. Sagittis aliquam malesuada bibendum arcu 
-            vitae elementum curabitur. Eget arcu dictum varius duis at consectetur lorem donec. Dignissim enim sit 
-            amet venenatis. Molestie nunc non blandit massa.</p>
+        <p> I created this first person shooter game using the Unity game engine and the C# programming language.  This game is meant to showcase my 
+            skills in design and development in a first person shooter game.</p>
+        <img src="images/MetroidSurviveScreentshot.png" alt="">
+        <p>I began this site with a basic logo and some download links for the Otaku Muscle app 
+            ensuring to get links to both Androis and IOS.</p>
+            <img src="images/OtakuMusclescreenshot_02.jpg" alt="">
+        <p>I then left testimonials from some of Otaku muscles current members.  This is a revolving
+            wheel that you can cycle through using the arrows on the side. I did this with Bootstrap.
+        </p>
+            <img src="images/OtakuMusclescreenshot_03.jpg" alt="">
+        <p>
+            Finally using HTML CSS and bootstrap I was able to setup a grid that held all of the pricing 
+            plans for Otaku Muscsle.
+        </p>
+        <div class="portfolio__item--btn">
+            <a href="https://thorspowa.itch.io/metroid-survive" class="btn_project-page">Play the game!</a>
+        </div>
     </div>
 
     <!--Footer-->
